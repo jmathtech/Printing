@@ -24,7 +24,6 @@ namespace Printing
 
            
             // Use one Console.WriteLine statement with four format items.
-            
             Console.WriteLine("\t{0}\t{1}\t{2}\t{3}  \n");
 
             /* Initialize two variables with a value and get the sum of two numbers.  
