@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+using System;
 
 /*
  Name: Jamil Matheny & Bryce Moore
@@ -17,24 +12,30 @@ namespace Printing
     {
         static void Main(string[] args)
         {
-            // Variables
-            int myNum = 4;
-            int yourNum = 2;          
-
             // Use one Console.WriteLine statement
-            Console.WriteLine(myNum);
-            Console.WriteLine("");
+            Console.WriteLine("1 2 3 4 \n");
+
 
             // Use four Console.Write statements
             Console.Write("1 ");
             Console.Write("2 ");
             Console.Write("3 ");
-            Console.Write("4 ");
+            Console.Write("4 \n\n");
 
+           
             // Use one Console.WriteLine statement with four format items.
-            int sum = myNum + yourNum;
-            Console.WriteLine("");
-            Console.WriteLine(sum);
+            
+            Console.WriteLine("\t{0}\t{1}\t{2}\t{3}  \n");
+
+            /* Initialize two variables with a value and get the sum of two numbers.  
+            Perform the calculation in the output statement. */
+
+            // Variables
+            int myNum = 4;
+            int yourNum = 2;
+      
+            int sum = myNum + yourNum; // Calculate to sum up the two variables.
+            Console.WriteLine($"4 + 2 = {sum}"); // Outputs the sum of the calculation.
 
         }
     }
